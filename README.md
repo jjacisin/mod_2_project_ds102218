@@ -15,7 +15,7 @@ Thesis -- Show the correlation between R voters and the chosen independent varia
           --Gubernatorial
             --https://enrpages.sos.state.tx.us/public/nov06_331_race37.htm
           --Congressional Races (32 Districts)
-            --
+        --Election result data saved to "results_csvs"
 
     --Independent Variables
       --Data: Texas census data from 2017 (Texas_District_all.csv)
@@ -33,9 +33,10 @@ Thesis -- Show the correlation between R voters and the chosen independent varia
         --Born in TX?
           --Looking at US Born population
           --Proportion of voters born and raised in TX vs. born in U.S. and moved to TX
-        --Bonus scope:
-          --Education
-          --Family make-up
+        --Education
+          --Share of population that attained at least an Associates' degree
+        --Family Make-up
+          --
 
 
 Fun Bonus:
