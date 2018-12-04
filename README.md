@@ -8,16 +8,18 @@ Thesis -- Show the correlation between R voters and the chosen independent varia
 
     --Dependent Variable
       --Proportion of Texans who vote for Republicans
+
         --Elections in Scope (2018 Midterms)
           --U.S. Senate
-            --https://enrpages.sos.state.tx.us/public/nov06_331_race0.htm?x=0&y=0&id=733
+            --https://enrpages.sos.state.tx.us/public/nov06_331_race0.htm
           --Gubernatorial
-            --
+            --https://enrpages.sos.state.tx.us/public/nov06_331_race37.htm
           --Congressional Races (32 Districts)
             --
 
     --Independent Variables
       --Data: Texas census data from 2017 (Texas_District_all.csv)
+      --what if we assigned the raw district population data to a county?
       --In-Scope:
         --Income and Benefits (In 2017 inflation-adjusted dollars)
           --Mean household income explanation
@@ -35,8 +37,6 @@ Thesis -- Show the correlation between R voters and the chosen independent varia
           --Education
           --Family make-up
 
-      --Other ind. options (Source unidentified)
-        --
 
 Fun Bonus:
   --Is there any correlation between most popular Buc-ee's and voting habits (i.e. likelihood of voting, party preference)?
@@ -63,3 +63,5 @@ Old assumptions:
     --Average Age
       --Mean age of voters 18+
       --data groups 18/19 y.o. in 15-19; we've decide to use 20% of this range in order to obtain entire voting Population
+      --Other ind. options (Source unidentified)
+        --
