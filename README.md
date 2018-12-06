@@ -4,7 +4,7 @@ Thesis -- Show the correlation between R voters and the chosen independent varia
 
     --Bonus Thesis: Assuming those correlations remain the same (ceteris paribus), how are the independent variables trending?
 
-    --Per SeanAbu's "predict" question, we are trying to predict how a Texas voter will decide given their county-level population data.
+    --Per SeanAbu's "predict" question, we are trying to predict how a Texas voter will decide given their congressional district-level population data.
 
     --Dependent Variable
       --Proportion of Texans who vote for Republicans
