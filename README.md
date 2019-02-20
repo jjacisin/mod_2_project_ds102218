@@ -70,7 +70,7 @@ def create_summary_df():
     return pd.DataFrame(df_summary)
 ```
 
-<img src="files/dep-var-df.png">
+<img src="img/dep-var-df.png">
 
 ## Independent Variables
 
@@ -501,11 +501,6 @@ We output all our variables into a CSV file for easy access. In preperation for 
 
 
 ```python
-# final_independent.to_csv('full_data.csv')
-```
-
-
-```python
 data = pd.read_csv('full_data.csv')
 data.head()
 ```
@@ -660,7 +655,7 @@ pd.plotting.scatter_matrix(data, figsize=[12, 12])
 
 
 
-![png](4_texas_voter_analysis_files/4_texas_voter_analysis_18_1.png)
+![png](4_texas_voter_analysis_files/4_texas_voter_analysis_17_1.png)
 
 
 
@@ -687,7 +682,7 @@ plt.title('Heatmap of Correlation between Features')
 
 
 
-![png](4_texas_voter_analysis_files/4_texas_voter_analysis_19_1.png)
+![png](4_texas_voter_analysis_files/4_texas_voter_analysis_18_1.png)
 
 
 
@@ -1954,7 +1949,7 @@ sns.heatmap(corr, mask=mask, cmap=cmap, vmax=1, center=0,
 
 
 
-![png](4_texas_voter_analysis_files/4_texas_voter_analysis_46_1.png)
+![png](4_texas_voter_analysis_files/4_texas_voter_analysis_45_1.png)
 
 
 
